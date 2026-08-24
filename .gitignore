@@ -1,0 +1,13 @@
+# Deny by default so source code, data, checkpoints, logs, and working files
+# cannot be added accidentally. Only the public visual-material allowlist below
+# is trackable.
+*
+
+!.gitignore
+!README.md
+
+!animations/
+!animations/*.gif
+
+!figures/
+!figures/*.png
